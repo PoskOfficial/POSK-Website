@@ -10,6 +10,9 @@ import solidJs from "@astrojs/solid-js";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
+import robotsTxt from "astro-robots-txt";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), solidJs(), sitemap()]
+  integrations: [tailwind(), solidJs(), sitemap(), robotsTxt()]
 });
