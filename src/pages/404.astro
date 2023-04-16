@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404. Page Not Found">
+  <div class="mt-7 flex items-center justify-center h-full">
+    <h1 class="text-9xl font-bold">404</h1>
+  </div>
+  <div class="flex items-center justify-center h-full">
+    <img src="/404.gif" alt="404. Page Not Found" />
+  </div>
+  <div class="mt-0 flex items-center justify-center h-full">
+    <a
+      href="/"
+      title="Go Home"
+      class="hidden lg:inline-flex items-center justify-center px-5 py-2.5 text-base transition-all duration-200 hover:bg-yellow-300 hover:text-black focus:text-black focus:bg-yellow-300 font-semibold text-white bg-black rounded-full"
+      role="button"
+    >
+      Go Home
+    </a>
+  </div>
+</Layout>
